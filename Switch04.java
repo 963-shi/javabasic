@@ -52,7 +52,6 @@ public class Switch05 {
 			break;
 		}
 		System.out.printf("计算结果：%.2f %c %.2f= %.2f\n",numOne,opr,numTwo,total);
-		System.out.println(total);
 		input.close();
 	}
 
