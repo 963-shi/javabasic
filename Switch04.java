@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Java43_basic
- * µÚËÄÕÂ¿Îºó×÷ÒµµÚ5Ìâ
+ * ç¬¬å››ç« è¯¾åä½œä¸šç¬¬5é¢˜
  * 
  * @author ShiGuoCai
  *
@@ -15,12 +15,12 @@ public class Switch05 {
 		double total=0.0;
 		double numOne=0.0;
 		double numTwo=0.0;		
-		System.out.println("ÇëÊäÈëµÚÒ»¸ö²Ù×÷Êı£º");
+		System.out.println("è¯·è¾“å…¥ç¬¬ä¸€ä¸ªæ“ä½œæ•°ï¼š");
 		Scanner input=new Scanner(System.in);
 		numOne = input.nextDouble();
-		System.out.println("ÇëÊäÈëËã·¨£º+¡¢-¡¢¡Á¡¢/¡¢%");
+		System.out.println("è¯·è¾“å…¥ç®—æ³•ï¼š+ã€-ã€Ã—ã€/ã€%");
 		char opr = input.next().charAt(0);
-		System.out.println("ÇëÊäÈëµÚ¶ş¸ö²Ù×÷Êı£º");
+		System.out.println("è¯·è¾“å…¥ç¬¬äºŒä¸ªæ“ä½œæ•°ï¼š");
 		numTwo = input.nextDouble();
 		
 		switch (opr) {
@@ -37,21 +37,21 @@ public class Switch05 {
 			if(numTwo!=0){
 				total=numOne/numTwo;
 			}else{
-				System.out.println("ÊäÈëµÄ±»³ıÊı²»ÄÜÎª0");
+				System.out.println("è¾“å…¥çš„è¢«é™¤æ•°ä¸èƒ½ä¸º0");
 			}						
 			break;
 		case '%':
 			if(numTwo!=0){
 				total=numOne%numTwo;
 			}else{
-				System.out.println("ÊäÈëµÄ±»³ıÊı²»ÄÜÎª0");
+				System.out.println("è¾“å…¥çš„è¢«é™¤æ•°ä¸èƒ½ä¸º0");
 			}					
 			break;
 		default:
-			System.out.println("ÇëÊäÈëÕıÈ·µÄËã·¨£º+¡¢-¡¢¡Á¡¢/¡¢%");			
+			System.out.println("è¯·è¾“å…¥æ­£ç¡®çš„ç®—æ³•ï¼š+ã€-ã€Ã—ã€/ã€%");			
 			break;
 		}
-//		System.out.printf("¼ÆËã½á¹û£º%.2d %c %.2d= %.2d\n",numOne,opr,numTwo,total);
+		System.out.printf("è®¡ç®—ç»“æœï¼š%.2f %c %.2f= %.2f\n",numOne,opr,numTwo,total);
 		System.out.println(total);
 		input.close();
 	}
