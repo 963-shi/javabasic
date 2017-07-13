@@ -1,11 +1,11 @@
 package cn.jbit.practice;
 /**
- * µÚÁùÕÂ¿ÎºóÁ·Ï°4
+ * ç¬¬å…­ç« è¯¾åä½œä¸š4
  * @author hiGuocai
  */
 public class FlipFlop {
-	/*1-100Ö®¼äÓö3µÄ±¶Êı´òÓ¡Flip,Óö5µÄ±¶Êı´òÓ¡Flop,ÓöÍ¬Ê±3£¬5
-	 * µÄ±¶Êı´òÓ¡FlipFlop*/
+	/*1-100ä¹‹é—´é‡3çš„å€æ•°æ‰“å°Flip,é‡5çš„å€æ•°æ‰“å°Flop,é‡åŒæ—¶3ï¼Œ5
+	 * çš„å€æ•°æ‰“å°FlipFlop*/
 	public static void main(String[] args) {
 
 		for(int i=1;i<=100;i++) {
