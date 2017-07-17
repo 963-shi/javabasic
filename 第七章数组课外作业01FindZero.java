@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Arrays;
 /**
- * µÚÆßÕÂ¿ÎÍâ×÷Òµ01
+ * ç¬¬ä¸ƒç« è¯¾å¤–ä½œä¸š01
  * @author ShiGuocai *
  */
 public class FindZero {
@@ -16,7 +16,7 @@ public class FindZero {
 				 continue;
 			 }
 		 }
-		 System.out.println("Ô­ÓÐÊý×é£º"+Arrays.toString(oldArr));
+		 System.out.println("åŽŸæœ‰æ•°ç»„ï¼š"+Arrays.toString(oldArr));
 		 int k=0,temp;
 		 do{
 			 for(int i=0;i<oldArr.length-k;i++){
@@ -36,18 +36,18 @@ public class FindZero {
 			 }
 			 k++;
 		 }while(k<=index);	 		 
-		 System.out.println("Ã°ÅÝºóÔ­Êý×é"+Arrays.toString(oldArr));
+		 System.out.println("å†’æ³¡åŽåŽŸæ•°ç»„"+Arrays.toString(oldArr));
 		 int[] newArr=new int[oldArr.length-index];
-		 //¿½±´Êý×éÖÐ³ý0ÒÔÍâµÄÓÐÐ§Êý×Ö£¬µ½ÐÂÊý×éÖÐ
+		 //æ‹·è´æ•°ç»„ä¸­é™¤0ä»¥å¤–çš„æœ‰æ•ˆæ•°å­—ï¼Œåˆ°æ–°æ•°ç»„ä¸­
 		 System.arraycopy(oldArr, 0, newArr, 0, oldArr.length-index);
-		 //¿½±´µ½Ô­Êý×é
+		 //æ‹·è´åˆ°åŽŸæ•°ç»„
 		 int[] oldnewArr=new int[oldArr.length-index];
 		 Arrays.copyOf(oldArr, oldnewArr.length-index);
-		 System.out.println("¿½±´µ½ÐÂÊý×é"+Arrays.toString(oldArr));
-		//µÚ1ÖÖ£º¿½±´µ½ÐÂÊý×é
-		 System.out.println("µÚ1ÖÖ£ºÐÂÊý×é"+Arrays.toString(Arrays.copyOf(oldArr, oldArr.length-index)));
-		//µÚ2ÖÖ£º¿½±´µ½ÐÂÊý×é
-		 System.out.println("µÚ2ÖÖ£ºÐÂÊý×énewArr"+Arrays.toString(newArr));
+		 System.out.println("æ‹·è´åˆ°æ–°æ•°ç»„"+Arrays.toString(oldArr));
+		//ç¬¬1ç§ï¼šæ‹·è´åˆ°æ–°æ•°ç»„
+		 System.out.println("ç¬¬1ç§ï¼šæ–°æ•°ç»„"+Arrays.toString(Arrays.copyOf(oldArr, oldArr.length-index)));
+		//ç¬¬2ç§ï¼šæ‹·è´åˆ°æ–°æ•°ç»„
+		 System.out.println("ç¬¬2ç§ï¼šæ–°æ•°ç»„newArr"+Arrays.toString(newArr));
 
 	}
 
