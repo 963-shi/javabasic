@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Arrays;
 /**
- * µÚÆßÕÂ¿ÎÍâ×÷Òµ02
+ * ç¬¬ä¸ƒç« è¯¾å¤–ä½œä¸š02
  * @author ShiGuocai *
  */
 public class sumArray {
@@ -13,9 +13,9 @@ public class sumArray {
 		int[] arr3=new int[arr1.length+arr2.length];
 		System.arraycopy(arr1, 0, arr3, 0, arr1.length);
 		System.arraycopy(arr2, 0, arr3, arr1.length, arr2.length);
-		System.out.println("ºÏ²¢ºóĞÂÊı×éÎª£º"+Arrays.toString(arr3));
+		System.out.println("åˆå¹¶åæ–°æ•°ç»„ä¸ºï¼š"+Arrays.toString(arr3));
 		Arrays.sort(arr3);
-		System.out.println("ºÏ²¢ºóĞÂÊı×éÉıĞòÎª£º"+Arrays.toString(arr3));
+		System.out.println("åˆå¹¶åæ–°æ•°ç»„å‡åºä¸ºï¼š"+Arrays.toString(arr3));
 
 	}
 
