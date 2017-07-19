@@ -1,6 +1,6 @@
 package cn.jbit.pratice;
 /**
- * µÚÆßÕÂÊı×é¿ÎÍâÁ·Ï°04
+ * ç¬¬ä¸ƒç« æ•°ç»„è¯¾å¤–ç»ƒä¹ 04
  * @author ShiGuocai *
  */
 public class TwentyFive {
@@ -15,19 +15,19 @@ public class TwentyFive {
 			for(int j=0;j<arr[i].length;j++) {
 				switch (i) {
 				case 0:
-					System.out.print((j+1)+":C++ ³É¼¨:"+arr[i][j]+"\t\t");
+					System.out.print((j+1)+":C++ å¹³å‡æˆç»©:"+arr[i][j]+"\t\t");
 					break;
 				case 1:
-					System.out.print((j+1)+":Java³É¼¨:"+arr[i][j]+"\t\t");
+					System.out.print((j+1)+":Javaå¹³å‡æˆç»©:"+arr[i][j]+"\t\t");
 					break;
 				case 2:
-					System.out.print((j+1)+":Pyth³É¼¨:"+arr[i][j]+"\t\t");
+					System.out.print((j+1)+":Pythå¹³å‡æˆç»©:"+arr[i][j]+"\t\t");
 					break;
 				case 3:
-					System.out.print((j+1)+"C# ³É¼¨:"+arr[i][j]+"\t\t");
+					System.out.print((j+1)+"C# å¹³å‡æˆç»©:"+arr[i][j]+"\t\t");
 					break;
 				case 4:
-					System.out.print((j+1)+": C  ³É¼¨:"+arr[i][j]+"\t\t");
+					System.out.print((j+1)+": C  å¹³å‡æˆç»©:"+arr[i][j]+"\t\t");
 					break;
 				default:
 					break;
@@ -44,12 +44,12 @@ public class TwentyFive {
 		double[][] newarravg=new double[1][20];
 		for(int i=0;i<newarr.length;i++) {
 			for(int j=0;j<newarr[i].length;j++) {
-				System.out.print("µÚ"+(j+1)+"ÃûÑ§Ô±£º"+newarr[i][j]+"\t\t");
+				System.out.print("ç¬¬"+(j+1)+"åå­¦å‘˜ï¼š"+newarr[i][j]+"\t\t");
 				newarravg[i][j]=newarr[i][j]*1.0/5;
 			}
 			System.out.println("\n");
 			for(int j=0;j<newarr[i].length;j++) {
-				System.out.printf("µÚ%dÃûÑ§Ô±Æ½¾ù³É¼¨£º%.1f\t",j+1,newarravg[i][j]);				
+				System.out.printf("ç¬¬%dåå­¦å‘˜å¹³å‡æˆç»©ï¼š%.1f\t",j+1,newarravg[i][j]);				
 			}
 		}
 	}
